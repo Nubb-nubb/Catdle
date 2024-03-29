@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CATDLE</title>
+    <link rel="stylesheet" href="interface.css">
+</head>
+<body>
+    <div class="guess-container">
+        <input type="text" id="catGuess" placeholder="Guess a cat breed" list="catList">
+        <datalist id="catList">
+            <!-- Options will be populated by JavaScript -->
+        </datalist>
+        <button onclick="checkGuess()">Guess</button>
+        <div id="attempts">Attempts: 5</div>
+    </div>
+    <div class="cat-info">
+        <!-- The content here will be filled by the JavaScript -->
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>

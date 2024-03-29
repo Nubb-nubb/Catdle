@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Ragdoll",
+        "attributes": {
+            "Weight": "5.4-10kg (Male), 3.6-6.8kg (Female)",
+            "Body Type": "Short legs, long torso",
+            "Coat Type": "Single coat, silky and semi-long",
+            "Eye Color": "Blue",
+            "Temperament": "Gentle, calm, and friendly"
+        }
+    },
+    {
+        "name": "Siberian",
+        "attributes": {
+            "Weight": "4.5-9kg (Male), 3.5-6.5kg (Female)",
+            "Body Type": "Muscular, sturdy body",
+            "Coat Type": "Thick, double coat",
+            "Eye Color": "Varies",
+            "Temperament": "Adventurous, playful"
+        }
+    },
+    {
+        "name": "Maine Coon",
+        "attributes": {
+            "Weight": "6.8-11.3kg (Male), 4.5-6.8kg (Female)",
+            "Body Type": "Large, muscular",
+            "Coat Type": "Thick, long, water-repellent",
+            "Eye Color": "Varies",
+            "Temperament": "Friendly, intelligent, and playful"
+        }
+    },
+    {
+        "name": "Siamese",
+        "attributes": {
+            "Weight": "4-6kg (Male), 2.5-4.5kg (Female)",
+            "Body Type": "Slim, elegant",
+            "Coat Type": "Short, fine",
+            "Eye Color": "Blue",
+            "Temperament": "Social, vocal, and affectionate"
+        }
+    },
+    {
+        "name": "Bengal",
+        "attributes": {
+            "Weight": "4.5-6.8kg (Male), 3.6-5.4kg (Female)",
+            "Body Type": "Lean and muscular",
+            "Coat Type": "Short, soft, and silky",
+            "Eye Color": "Green or gold",
+            "Temperament": "Active, curious, and friendly"
+        }
+    },
+    {
+        "name": "Persian",
+        "attributes": {
+            "Weight": "3.5-7kg (Male), 3-5.5kg (Female)",
+            "Body Type": "Medium to large, stocky",
+            "Coat Type": "Long, thick, and silky",
+            "Eye Color": "Varies",
+            "Temperament": "Quiet, affectionate, and gentle"
+        }
+    },
+    {
+        "name": "Scottish Fold",
+        "attributes": {
+            "Weight": "4-6kg (Male), 2.7-4kg (Female)",
+            "Body Type": "Medium, rounded",
+            "Coat Type": "Short to medium, dense",
+            "Eye Color": "Varies",
+            "Temperament": "Sweet-tempered, loyal, and playful"
+        }
+    }
+]
