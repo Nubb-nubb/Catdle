@@ -56,6 +56,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const userGuess = guessInput.value.trim();
         const currentCat = cats[currentCatIndex];
 
+        if (attempts <= 0) {
+            alert('No attempts left. You lose!');
+            showPlayAgainButton();
+            return;
+        }
+
         if (userGuess === currentCat.name) {
             alert('Correct! You win!!!');
             revealAttributes();
@@ -63,12 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             attempts--;
             updateAttemptsDisplay();
-            if (attempts > 0) {
-                alert(`Incorrect, ${attempts} attempts left.`);
-            } else {
+            if (attempts <= 0) {
                 alert('Incorrect. No attempts left. You lose!');
                 revealAttributes();
                 showPlayAgainButton();
+            } else {
+                alert(`Incorrect, ${attempts} attempts left.`);
             }
         }
 
@@ -77,11 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function revealAttributes() {
         const currentCat = cats[currentCatIndex];
-    
-        // Reveal the cat breed name
         document.getElementById('catBreedName').textContent = currentCat.name;
-    
-        // Reveal other attributes
         for (const [key, value] of Object.entries(currentCat.attributes)) {
             const sanitizedKey = key.replace(/\s+/g, '_');
             const attributeDiv = document.getElementById(sanitizedKey);
@@ -99,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentCatIndex++;
             startNewGame();
         };
-
+    
         document.querySelector('.guess-container').appendChild(playAgainButton);
     }
 
@@ -117,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
             testingDiv.id = 'testingBreed';
             document.body.appendChild(testingDiv);
         }
-        testingDiv.textContent = `Testing: ${breedName}`;
+        testingDiv.textContent = `Testing: ${breedName}a`;
     }
 
     function clearGuessInput() {

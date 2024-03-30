@@ -8,6 +8,25 @@ body {
     margin: 0;
 }
 
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    padding: 10px;
+}
+
+.titleContainer h2 {
+    margin-bottom: 0; 
+}
+
+.titleContainer p {
+    justify-content: center;
+    margin-top: 0;
+    font-size: 60%;
+}
+
 .guess-container {
     margin-bottom: 20px;
 }
